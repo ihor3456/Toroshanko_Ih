@@ -1,0 +1,373 @@
+.body_page {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    font-family: "Ubuntu", sans-serif;
+    height: 100vh;
+
+}
+
+.container {
+    max-width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.container_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px);
+    /*padding-top: 54px;*/
+    /*padding-bottom: 72px;*/
+    min-height: 680px;
+
+
+}
+
+.page-header {
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 79px;
+}
+
+.link_icon_header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.list_header {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    align-items: center;
+    padding-right: 27px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    margin-right: 27px;
+}
+
+.header_icon {
+    margin-left: 25px;
+}
+
+.link_header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: white;
+}
+
+.item_link_header {
+    margin: 0;
+    color: white;
+    text-align: left;
+}
+
+.container_registration {
+    width: 324px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.registration {
+    background-color: white;
+    padding-top: 31px;
+    padding-bottom: 38px;
+    padding-right: 60px;
+    padding-left: 60px;
+
+
+}
+
+.registration_items {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.registration_text {
+    position: relative;
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #434343;
+    /*margin-right: 216px;*/
+}
+
+.registration_link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #3CB878;
+}
+
+.registration_link:hover {
+    text-decoration: underline;
+    color: rgba(1, 129, 63, 1);
+}
+
+.socials_buttons {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.socials_button1 {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    background-color: #305DB8;
+    border: none;
+    width: 160px;
+    height: 48px;
+    margin-right: 4px;
+    border-radius: 4px;
+    padding: 0 0 0 17px;
+    cursor: pointer;
+}
+
+.socials_button_image {
+    margin-right: 38px;
+}
+
+.socials_button2 {
+    display: flex;
+    position: relative;
+    width: 160px;
+    height: 48px;
+    justify-content: left;
+    align-items: center;
+    background-color: #DF4A32;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 0 0 0 12px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.socials_button1:after {
+    content: "";
+    position: absolute;
+    border-right: 1px solid black;
+    right: 111px;
+    top: 10px;
+    bottom: 10px;
+    opacity: 0.1;
+}
+
+.socials_button2:after {
+    content: "";
+    position: absolute;
+    border-right: 1px solid black;
+    right: 109px;
+    top: 10px;
+    bottom: 10px;
+    opacity: 0.1;
+}
+
+.decor_block {
+    text-align: center;
+    width: 73%;
+    margin: 0 auto;
+}
+
+.decor_text {
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.decor_text::before {
+    content: '';
+    position: absolute;
+    width: 152px;
+    border-top: 1px solid #F2F2F2;
+    left: 16px;
+    top: 10px;
+}
+
+.decor_text::after {
+    content: '';
+    position: absolute;
+    width: 152px;
+    border-bottom: 1px solid #F2F2F2;
+    right: 16px;
+    top: 10px;
+}
+
+.form_registration {
+    margin-top: 11px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 15px;
+    width: 324px;
+}
+
+.item_registration {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    width: 100%;
+    padding: 16px 0 16px 20px;
+    border-radius: 4px;
+    border: 1px solid #F2F2F2;
+}
+
+.item_registration:focus {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.21);
+    outline: none;
+}
+
+.checkbox_registration {
+    display: block;
+    width: 324px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.checkbox_item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle;
+}
+
+.checkbox_link {
+    color: rgba(60, 184, 120, 1);
+}
+
+.checkbox_link:hover {
+    text-decoration: underline;
+    color: rgba(1, 129, 63, 1);
+}
+
+.checkbox_registration input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #F2F2F2;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox_registration input:checked~.checkmark:after {
+    display: block;
+}
+
+.checkbox_registration .checkmark:after {
+    left: 3px;
+    right: 3px;
+    top: 3px;
+    bottom: 3px;
+    width: 14px;
+    height: 14px;
+    background-image: url("../images/checkbox.svg");
+    background-size: cover;
+}
+
+
+.submit_button_item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    background: rgba(60, 184, 120, 0.8);
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    padding: 16px 99px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.logo:hover {
+    color: #3CB878;
+    opacity: 0.41;
+}
+
+svg {
+    fill: white;
+}
+
+.item_icon_header svg:hover {
+    fill: #3CB878;
+    opacity: 0.41;
+
+}
+
+.link_header:hover {
+    color: rgba(60, 184, 120, 1);
+    opacity: 0.41;
+}
+
+.socials_button1:hover {
+    background-color: #022263;
+}
+
+.socials_button2:hover {
+    background-color: #AB1F09;
+}
+
+.submit_button_item:hover {
+    background-color: #01813F;
+}
+
+.registration_text::before {
+    content: '';
+    top: 1px;
+    right: 111px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: #3CB878;
+}

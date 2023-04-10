@@ -1,0 +1,360 @@
+.page {
+    margin: 0;
+    background: #171717;
+}
+
+/* .main-info {
+    background: #171717;
+} */
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1470px;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 46px;
+    padding-bottom: 128px;
+}
+
+.call-back {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #E4B564;
+    padding-left: 20px;
+    border: 1px solid #E4B564;
+    padding: 10px 25px 10px 0;
+    text-decoration: none;
+}
+
+.phone-picture {
+    display: inline-block;
+    margin-left: 26px;
+    margin-right: 10px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 41px;
+}
+
+.section-subtitle {
+    width: 1182px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 41px;
+}
+
+/* .main-service {
+    height: 963px;
+    width: 1460px;
+} */
+
+.services {
+    margin-top: 0;
+    margin-bottom: 161px;
+    padding-left: 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 34px;
+    row-gap: 27px;
+
+}
+
+.service-item1 {
+    grid-area: 1 / 1 / 2 / 3;
+    background: #634F2C;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 220px 115px;
+    text-align: center;
+}
+
+.service-item2 {
+    grid-area: 1 / 3 / 2 / 5;
+    background: #B4A385;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 220px 115px;
+    text-align: center;
+
+}
+
+.service-item3 {
+    grid-area: 1 / 5 / 2 / 7;
+    background: #E4B564;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 220px 115px;
+    text-align: center;
+
+}
+
+.service-item4 {
+    grid-area: 2 / 1 / 3 / 4;
+    background: #635A4A;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 220px 115px;
+    text-align: center;
+
+}
+
+.service-item5 {
+    grid-area: 2 / 4 / 3 / 7;
+    background: #B08C4D;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 220px 115px;
+    text-align: center;
+
+}
+
+.service-item-link {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.equipment {
+    display: flex;
+    gap: 30px;
+}
+
+.equipment-item1 {
+
+    background-color: #0E0E0E;
+    width: 467px;
+    height: 313px;
+    margin-bottom: 24px;
+}
+
+.equipment-item2 {
+    width: 467px;
+    height: 560px;
+    background: #1F1F1F;
+
+}
+
+.equipment-item3 {
+    width: 467px;
+    height: 439px;
+    background: #242424;
+    margin-bottom: 33px;
+}
+
+.equipment-item4 {
+    width: 467px;
+    height: 405px;
+    color: #000000;
+    background: #E4B564;
+
+}
+
+.equipment-item5 {
+    width: 467px;
+    height: 255px;
+    background: #1F1F1F;
+
+}
+
+.equipment-item6 {
+    width: 467px;
+    height: 313px;
+    background: #0E0E0E;
+    margin-top: 26px;
+    margin-bottom: 26px;
+
+}
+
+.equipment-item7 {
+    width: 467px;
+    height: 277px;
+    background: #0A0909;
+    margin-bottom: 190px;
+}
+
+.equipment-text1 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 44px 0 0 52px;
+}
+
+.equipment-text2 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 56px 0 0 52px;
+}
+
+.equipment-text3 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 44px 0 0 51px;
+}
+
+.equipment-text4 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    padding: 47px 0 0 52px;
+}
+
+.equipment-text5 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 44px 0 0 48px;
+}
+
+.equipment-text6 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 44px 0 0 48px;
+}
+
+.equipment-text7 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 44px 0 0 48px;
+}
+
+
+
+.partners-info {
+    background: #0E0E0E;
+    width: 100%;
+    margin-bottom: 238px;
+}
+
+
+.partners-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 800px;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.partners-info-button {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #E4B564;
+    border: 1px solid #E4B564;
+    padding: 10px 40px;
+    text-decoration: none;
+    align-self: center;
+}
+
+.clients {
+    height: 782px;
+    width: 1460px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.clients-list1 {
+    background: #634F2C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.clients-list2 {
+    background: rgba(232, 210, 171, 0.76);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.clients-text {
+    width: 326px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF
+}
+
+.clients-list3 {
+    background: #E4B564;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.clients-list4 {
+    background: #635A4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.clients-list5 {
+    background: #B08C4D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.clients-list6 {
+    background: #634F2C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.clients-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
