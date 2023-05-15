@@ -1,0 +1,38 @@
+$color: white;
+
+.modal {
+  &__wrapper {
+    padding-top: 50px;
+    height: 100vh;
+    background-image: url(../imgs/back.jpg);
+  }
+  &__container {
+    width: 30%;
+    margin: 0 auto;
+    padding: 25px;
+    padding-bottom: 45px;
+    border-radius: 15px;
+    opacity: 1;
+  }
+  &__header {
+    position: relative;
+  }
+  &__header-text {
+    color: $color;
+  }
+  &__close-btn {
+    color: $color;
+    background-color: darkgrey;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+  }
+  &__body-text {
+    color: $color;
+    font-size: 18px;
+  }
+}
