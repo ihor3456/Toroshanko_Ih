@@ -4,7 +4,8 @@ $color: white;
   &__wrapper {
     padding-top: 50px;
     height: 100vh;
-    background-image: url(../imgs/back.jpg);
+    opacity: 0.6;
+    background: grey;
   }
   &__container {
     width: 30%;
