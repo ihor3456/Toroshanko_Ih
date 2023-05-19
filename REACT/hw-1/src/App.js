@@ -7,37 +7,52 @@ class App extends Component {
   state = {
     isFirstModalOpen: false,
     isSecondModalOpen: false,
+    isButton: true,
   };
 
   openFirstModal() {
-    this.setState({ isFirstModalOpen: true });
+    this.setState({ isFirstModalOpen: true, isButton: false });
   }
 
   openSecondModal() {
-    this.setState({ isSecondModalOpen: true });
+    this.setState({ isSecondModalOpen: true, isButton: false });
   }
 
-  closeModal(e) {
-    this.setState({ isFirstModalOpen: false });
-    this.setState({ isSecondModalOpen: false });
-  }
+  closeModal = (e) => {
+    if (
+      e.target.className === "modal-container" ||
+      e.target.className === "modal__close-btn" ||
+      e.target.className === "button"
+    ) {
+      this.setState({
+        isFirstModalOpen: false,
+        isSecondModalOpen: false,
+        isButton: true,
+      });
+    }
+  };
 
   render() {
-    const { isFirstModalOpen, isSecondModalOpen } = this.state;
+    const { isFirstModalOpen, isSecondModalOpen, isButton } = this.state;
 
     return (
       <div className="App">
         <div className="btn-container">
-          <Button
-            text="Open first modal"
-            backgroundColor="#ff3fe8"
-            onClick={() => this.openFirstModal()}
-          />
-          <Button
-            text="Open second modal"
-            backgroundColor=" #b351f1"
-            onClick={() => this.openSecondModal()}
-          />
+          {isButton && (
+            <Button
+              text="Open first modal"
+              backgroundColor="#fff345"
+              onClick={() => this.openFirstModal()}
+            />
+          )}
+
+          {isButton && (
+            <Button
+              text="Open second modal"
+              backgroundColor=" #C71585"
+              onClick={(e) => this.openSecondModal()}
+            />
+          )}
         </div>
 
         <div className="modal-container" onClick={(e) => this.closeModal(e)}>
