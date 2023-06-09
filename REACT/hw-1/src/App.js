@@ -1,43 +1,22 @@
 import React, { Component } from "react";
-import Button from "./components/Button/Button";
-import Modal from "./components/Modal/Modal";
+import CardList from "./components/CardList/CardList";
 import "./app.scss";
 
 class App extends Component {
-  state = {
-    isFirstModalOpen: false,
-    isSecondModalOpen: false,
-    isButton: true,
-  };
-
-  openFirstModal() {
-    this.setState({ isFirstModalOpen: true, isButton: false });
-  }
-
-  openSecondModal() {
-    this.setState({ isSecondModalOpen: true, isButton: false });
-  }
-
-  closeModal = (e) => {
-    if (
-      e.target.className === "modal-container" ||
-      e.target.className === "modal__close-btn" ||
-      e.target.className === "button"
-    ) {
-      this.setState({
-        isFirstModalOpen: false,
-        isSecondModalOpen: false,
-        isButton: true,
-      });
-    }
-  };
-
   render() {
-    const { isFirstModalOpen, isSecondModalOpen, isButton } = this.state;
-
     return (
       <div className="App">
-        <div className="btn-container">
+        {/* <Card
+          id={1}
+          name={"Джинси Моми"}
+          price={800}
+          image={"https://images.prom.ua/4369719038_w640_h640_dzhinsi-momi.jpg"}
+          article={916805}
+          color={"Blue"}
+        /> */}
+        <CardList />
+
+        {/* <div className="btn-container">
           {isButton && (
             <Button
               text="Open first modal"
@@ -89,7 +68,7 @@ class App extends Component {
               onClick={(e) => this.closeModal(e)}
             />
           )}
-        </div>
+        </div> */}
       </div>
     );
   }
