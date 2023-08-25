@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<style>
+	.is-modal .overlay {
+		opacity: 1;
+		visibility: visible;
+	}
+	.overlay {
+		position: fixed;
+		right: 0;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		z-index: 200;
+		visibility: hidden;
+		opacity: 0;
+		background-color: rgba(0,0,0,.4);
+
+		cursor: pointer;
+	}
+	.modal {
+		position: fixed;
+		opacity: 0;
+		visibility: hidden;
+		z-index: 201;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		max-width: 660px;
+		width: 100%;
+		box-shadow: 0 2px 16px 0 rgba(21,27,37,.3);
+		border-radius: 4px;
+		background-color: #fff;
+	}
+</style>
+<div class="overlay"></div>
+<button type="button" class="btn_modal" data-modal="modal1">Open modal 1</button>
+<div class="modal">
+	<div class="modal-box" style="position: relative; padding: 48px 40px; box-sizing: border-box;">
+		<p>Title</p>
+	</div>
+</div>
+
+<script>
+	/// https://developer.mozilla.org/ru/docs/Web/API/Element/closest
+
+	const modal = document.querySelector(".modal");
+	const button = document.querySelector(".btn_modal");
+
+	document.addEventListener("click", function (event) {
+
+		if (event.target.closest('[data-modal]')) {
+			document.body.classList.add('is-modal')
+			modal.style = `opacity: 1; visibility: visible;`;
+		}
+
+		if (!event.target.closest('.modal') && !event.target.closest('[data-modal]')) {
+			document.body.classList.remove('is-modal')
+			modal.style = `opacity: 0; visibility: hidden;`;
+		}
+	});
+
+</script>
+</body>
+</html>
