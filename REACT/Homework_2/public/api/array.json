@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Нурофен",
+    "price": 100,
+    "path": "https://storage.googleapis.com/static-storage/products/images/v2/59923_6nJZtKwv_20221018_222252.medium.webp",
+    "article": 12345,
+    "color": "white"
+  },
+  {
+    "name": "Цетрилев ",
+    "price": 604,
+    "path": "https://storage.googleapis.com/static-storage/products/images/v2/20200923-IMG_5555.medium.webp",
+    "article": 54321,
+    "color": "green"
+  },
+  {
+    "name": "Візин",
+    "price": 154,
+    "path": "https://storage.googleapis.com/static-storage/products/images/v2/56386_WnD8omjg_20230130_150826.medium.webp",
+    "article": 56789,
+    "color": "blue"
+  },
+  {
+    "name": "Ренні",
+    "price": 150,
+    "path": "https://storage.googleapis.com/static-storage/products/images/v2/27890_8Gx4RhvH_20210914_151140.medium.webp",
+    "article": 98765,
+    "color": "red"
+  },
+  {
+    "name": "Ергоцетал",
+    "price": 130,
+    "path": "https://storage.googleapis.com/static-storage/products/images/v2/1053697_87MpgJMn_20221215_211854.medium.webp",
+    "article": 14785,
+    "color": "brown"
+  },
+  {
+    "name": "Бепантен",
+    "price": 208,
+    "path": "https://storage.googleapis.com/static-storage/products/images/v2/1040231_2qqCqCyY_20220621_141735.medium.webp",
+    "article": 58741,
+    "color": "gray"
+  },
+  {
+    "name": "Парацетамол",
+    "price": 33,
+    "path": "https://storage.googleapis.com/static-storage/products/images/v2/20191015-IMG_2331.medium.webp",
+    "article": 23698,
+    "color": "blue"
+  },
+  {
+    "name": "Мефенамінка",
+    "price": 126,
+    "path": "https://storage.googleapis.com/static-storage/products/images/v2/1037449_9mnFrBjE_20220216_153213.medium.webp",
+    "article": 89632,
+    "color": "white"
+  },
+  {
+    "name": "Бронхипрет",
+    "price": 397,
+    "path": "https://storage.googleapis.com/static-storage/products/images/v2/20191011-IMG_2006.medium.webp",
+    "article": 15937,
+    "color": "green"
+  },
+  {
+    "name": "Гістафен",
+    "price": 497,
+    "path": "https://storage.googleapis.com/static-storage/products/images/v2/20191022-IMG_3553.medium.webp",
+    "article": 73951,
+    "color": "green"
+  },
+  {
+    "name": "Аскорбінка",
+    "price": 7,
+    "path": "https://storage.googleapis.com/static-storage/products/images/v2/1053044_BlRFY0Im_20221215_221038.medium.webp",
+    "article": 78965,
+    "color": "white"
+  }
+]
