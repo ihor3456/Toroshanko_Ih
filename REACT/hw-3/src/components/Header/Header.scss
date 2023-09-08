@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: greenyellow;
+  height: 80px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  justify-content: center;
+
+  & .header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    & .nav-link {
+      height: 100%;
+    }
+    & .star2 svg {
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+    }
+    & .basket svg {
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+    }
+  }
+}
